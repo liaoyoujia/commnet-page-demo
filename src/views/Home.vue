@@ -34,4 +34,3 @@ export default {
   background-color: cyan;
 }
 </style>
-1
