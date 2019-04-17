@@ -1,0 +1,22 @@
+$my-theme-primary-color: #1b1b1b;
+$business-page-color: #f1f9fb;
+// 威马主要渐变色
+$wm_bg: linear-gradient(90deg, #00fffe 0%, #35ffd1 21%, #6bffa2 50%, #9fff73 81%, #d3ff43 100%);
+$wm_bg_n: linear-gradient(90deg, #ff384a 0%, #fe9b43 49%, #fec23c 78%, #fee934 100%);
+// 头部高度
+$site-header-height: 64px;
+
+.clearfix {
+	&::after {
+		display: block;
+		clear: both;
+		content: '';
+	}
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
